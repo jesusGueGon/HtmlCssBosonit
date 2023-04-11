@@ -16,6 +16,9 @@ body {
 #img-div {
     background-color: rgb(255, 255, 255);
     margin: 20px;
+    display: flex;
+    align-items: ce;
+    flex-direction: column;
 }
 
 #image {
