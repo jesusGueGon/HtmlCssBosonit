@@ -68,7 +68,7 @@ p{
     margin-left: 17%;
 }
 
-#main-section {
+.main-section {
     /*border: solid blue;*/
     text-align: justify;
 }
@@ -88,3 +88,9 @@ p{
     margin-left: 50px;
     list-style: circle;
 }
+
+@media (max-width: 600px) {
+    a {
+        color: red;
+    }
+} 
