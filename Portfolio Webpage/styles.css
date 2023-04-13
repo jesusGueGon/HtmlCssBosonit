@@ -141,6 +141,7 @@ a {
     justify-content: center;
 }
 
+
 .lista-contact {
     display: flex;
     width: 1000px;
@@ -180,4 +181,13 @@ footer {
 
 #div-footer p {
     margin-top: 75px;
+}
+
+.btn-show-all:hover {
+    background-color: #be3144;
+    transition: all 0.6s;
+}
+
+.nav-link:hover {
+    background-color: #45567d;
 }

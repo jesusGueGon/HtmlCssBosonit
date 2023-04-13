@@ -28,14 +28,17 @@
             <select id="dropdown">
                 <option value="select current role">Select current role</option>
                 <option value="student">Student</option>
-                <option value="full time job">full time job</option>
+                <option value="full time job">Full time job</option>
+                <option value="full time learner">Full time Learner</option>
+                <option value="prefer not to say">Prefer not to say</option>
+                <option value="other">Other</option>
             </select>
         </div>
 
         <div class="form-group">
             <label id="dropdown-label" for="dropdown">Would you recommend freeCodeCamp to a friend?</label>
             <label>
-                <input class="input-radio" value="definitely" type="radio" name="user-recommend">Definitely
+                <input class="input-radio" value="definitely" type="radio" name="user-recommend" checked>Definitely
             </label>
             <label>
                 <input class="input-radio" value="maybe" type="radio" name="user-recommend">Maybe
@@ -44,6 +47,17 @@
                 <input class="input-radio" value="notsure" type="radio" name="user-recommend">Not sure
             </label>
 
+        </div>
+
+        <div class="form-group">
+            <label id="dropdown-label" for="dropdown">What is your favorite feature of freeCodeCamp?</label>
+            <select id="dropdown">
+                <option value="select an option">Select an option</option>
+                <option value="challenges">Challenges</option>
+                <option value="projects">Projects</option>
+                <option value="community">Community</option>
+                <option value="open source">Open Source</option>
+            </select>
         </div>
 
         <div class="form-group">

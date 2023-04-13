@@ -6,6 +6,7 @@ body {
 
 #main {
     background-color: rgb(236, 236, 236);
+    border-radius: 3px;
 }
 
 #title {
@@ -72,4 +73,8 @@ body {
 
 h3{
     padding-bottom: 20px;
+}
+
+a {
+    color: rgb(119, 119, 119);
 }

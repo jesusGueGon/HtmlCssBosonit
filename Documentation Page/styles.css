@@ -5,7 +5,6 @@ a {
     color: #4d4e53;
     text-decoration: none;
     cursor: pointer;
-    border-top: solid #4d4e53 1px;
     margin-left: -30px;
 }
 
@@ -15,19 +14,20 @@ body {
 
 ul {
     list-style: none;
-    
 }
 
-li {
-    /*display: in;*/
+#navbar li {
     text-align: start;
-    margin-left: -20px;
+    margin-left: -39px;
     margin-top: 10px;
+    padding-left: 20px;
     padding-right: 30px;
+    border-top: solid #4d4e53 1px;
 }
 
 
 aside {
+    position: fixed;
     border-right: solid #4d4e53 1px;
     max-width: 300px;
     border-collapse: collapse;
@@ -64,8 +64,9 @@ p{
 }
 
 #main-doc {
+    position: absolute;
     /*border: solid red;*/
-    margin-left: 17%;
+    margin-left: 310px;
 }
 
 .main-section {
