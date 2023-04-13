@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -138,13 +138,13 @@ a {
 
 .contact-div {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    border-bottom: solid #be3144 4px;
 }
 
 .lista-contact {
-    border: solid;
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
     margin-bottom: 200px;
 }
 
@@ -153,4 +153,31 @@ a {
     margin-left: 20px;
     font-size: 20px;
     font-weight: 700;
+}
+
+.img-div-footer {
+    display: flex;
+}
+
+.img-div-footer img {
+    width: 25px;
+}
+
+footer {
+    height: 120px;
+}
+
+#div-footer {
+    border-top: solid #be3144;
+    height: 150px;
+    background-color: #3a3d40;
+    margin-left: -20px;
+    margin-right: -20px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+#div-footer p {
+    margin-top: 75px;
 }
